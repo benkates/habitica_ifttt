@@ -1,6 +1,6 @@
 # Add a Habitica to-do with Google Cloud Functions and IFTTT (If This Then That)
 
-As the title describes, follow the instructions below to use your IFTTT to add a new Habitica to-do item (commonly used with Google Assistant).
+As the title describes, follow the instructions below to use IFTTT to add a new Habitica to-do item (commonly used with Google Assistant).
 
 This solution was created out of necessity since the [glitch.me-based solution](https://habitica.fandom.com/wiki/Habitica_To-Do_Action_for_IFTTT) no longer works due to Glitch rejecting requests from IFTTT.
 
