@@ -1,25 +1,15 @@
 {
-  "name": "multi-ifttt-triggers",
+  "name": "habitica-google-functions",
   "version": "0.0.1",
-  "description": "Trigger multiple IFTTT services after receiving a request",
-  "author": "chustedde",
+  "description": "Trigger Habitica API request from Google Cloud Functions endpoint",
+  "author": "bkates",
   "license": "MIT",
-  "repository": "https://glitch.com/edit/#!/habitica-ifttt-action",
+  "repository": "https://github.com/benkates/habitica_ifttt",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.14.0",
-    "request": "*",
-    "body-parser": "*"
-  },
-  "engines": {
-    "node": "8.x"
-  },
-  "keywords": [
-    "node",
-    "express",
-    "ifttt"
-  ]
+    "request": "^2.81.0"
+  }
 }
