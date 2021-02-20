@@ -54,7 +54,7 @@ You'll need to have the following ready:
 13. Fill in the web request dialog:
 - Select "POST" from the Method dropdown.
 - In the Body field, enter: {"key":"your-app-key","title":"{{your-ingredient}}"}. After you've typed "title", click Add ingredient and select the field you want to use as the title for your To Do item, this will fill in your-ingredient. Replace your-app-key with the key you came up with earlier.
-- In the URL field, enter your Google Cloud Functions trigger url. This will have the format: https://us-central1-project-name.cloudfunctions.net/habitica-todo.
+- In the URL field, enter your Google Cloud Functions trigger url. This will have the format: us-central1-project-name.cloudfunctions.net/habitica-todo.
 - Select "application/json" from the Content Type dropdown.
 
 ![](https://i.imgur.com/CPG7X0y.png)
