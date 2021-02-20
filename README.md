@@ -25,21 +25,23 @@ You'll need to have the following ready:
 
 4. You'll need to name the function, select a region, and select "Allow unauthenticated invocations".
 
-IMAGE
+![](https://i.imgur.com/Bpf23uo.png)
 
-5. Scroll down to Environment Variables and create three, that look like the following (make up a random app key to use)
+5. Scroll down to Environment Variables and create three "Runtime environment variables" (do not add any "Build environment variables"), that look like the following (make up a random APP_KEY to use)
 
-IMAGE
+![](https://i.imgur.com/EwCIEOH.png)
 
 6. Click next and enter "habitica" in the Entry point field.
 
 7. Create two files, one called `server.js` and one `package.json` and copy the code in this repository into those files.
 
+![](https://i.imgur.com/rHOa2Zk.png)
+
 8. Click deploy at the bottom and in a few minutes you should have a URL endpoint to use!
 
-9. Once deployed, click on the name of your function and click on the "Trigger" tab. Take note of the URL, you'll need it in the next section.
+9. Once deployed, click on the name of your function and click on the "Trigger" tab. Take note of the "Trigger URL", you'll need it in the next section.
 
-IMAGE
+![](https://i.imgur.com/nN0DfUR.png)
 
 ## Setup IFTTT Applet (steps copied from original Glitch article)
 
@@ -55,6 +57,6 @@ IMAGE
 - In the URL field, enter your Google Cloud Functions trigger url. This will have the format: https://us-central1-project-name.cloudfunctions.net/habitica-todo.
 - Select "application/json" from the Content Type dropdown.
 
-IMAGE
+![](https://i.imgur.com/CPG7X0y.png)
 
 14. Click done and test it out! Hopefully you have a new voice-activated webhook for Habitica ready to go!
