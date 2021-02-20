@@ -25,7 +25,7 @@ You'll need to have the following ready:
 
 4. You'll need to name the function, select a region, and select "Allow unauthenticated invocations".
 
-![](https://i.imgur.com/Bpf23uo.png)
+![](https://i.imgur.com/DcSQL8E.png)
 
 5. Scroll down to Environment Variables and create three "Runtime environment variables" (do not add any "Build environment variables"), that look like the following (make up a random APP_KEY to use)
 
