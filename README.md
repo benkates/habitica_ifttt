@@ -8,7 +8,7 @@ This solution was created out of necessity since the [glitch.me-based solution](
 
 You'll need to have the following ready:
 
-- Habitica User ID and API key
+- [Habitica User ID and API key](https://habitica.com/user/settings/api)
 - A valid [Google Cloud account](https://cloud.google.com/billing/docs/how-to/manage-billing-account) with payment method added (this will incur pennies of cost (if any) - first year of GCP gives a $300 credit)
 - A [Google Cloud project](https://console.cloud.google.com/cloud-resource-manage)
 - An [IFTTT](ifttt.com) applet
